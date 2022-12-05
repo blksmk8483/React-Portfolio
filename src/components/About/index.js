@@ -1,4 +1,5 @@
-import './index.scss'
+import './index.scss';
+import ProfilePhoto from '../../assets/images/profilePhoto.jpg';
 
 const About = () => {
     
@@ -17,6 +18,10 @@ const About = () => {
                 <p>
                 stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me  stuff about me
                 </p>
+            </div>
+            <div className='about-right-page'>
+                <img className='profile-pic' src={ProfilePhoto} alt="profilePic" />
+                    
             </div>
         </div>
     )
