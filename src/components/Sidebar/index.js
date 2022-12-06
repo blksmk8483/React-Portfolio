@@ -3,7 +3,7 @@ import './index.scss'
 import LetterB from '../../assets/images/LetterB.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser, faList, faLink } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons' 
+import { faLinkedin, faGithub, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons' 
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -56,6 +56,16 @@ const Sidebar = () => (
     <li>
         <a target="_blank" rel='nonreferrer' href='https://github.com/blksmk8483'>
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel='nonreferrer' href='https://www.facebook.com/brandon.knight.5815'>
+            <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel='nonreferrer' href='https://twitter.com/Brandon198483'>
+            <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
         </a>
     </li>
 </ul>
