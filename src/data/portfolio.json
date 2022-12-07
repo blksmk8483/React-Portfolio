@@ -1,0 +1,11 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/gardenlogo.png",
+            "title": "title",
+            "description": "stuff",
+            "url": "https://garden2ed.herokuapp.com/"
+
+        }
+    ]
+}
