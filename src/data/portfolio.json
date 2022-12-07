@@ -2,9 +2,16 @@
     "portfolio": [
         {
             "cover": "/portfolio/gardenlogo.png",
-            "title": "title",
+            "title": "Garden2",
             "description": "stuff",
             "url": "https://garden2ed.herokuapp.com/"
+
+        },
+        {
+            "cover": "/portfolio/Employee-tracker.png",
+            "title": "Employee Tracker",
+            "description": "stuff",
+            "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
 
         }
     ]
