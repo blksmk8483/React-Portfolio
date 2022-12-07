@@ -20,7 +20,7 @@
     .image-box {
         position: relative;
         flex: 1 1 20%;
-        height: 400px;
+        height: 265px; // I'm not sure if I want it so close.
         overflow: hidden;
         border-radius: 10px;
         max-width: calc(25% - 10px);
@@ -30,7 +30,7 @@
             z-index: 2;
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain; //I don't know which I prefer. Ill stare at it more and then decide.... 
         }
 
         .content {
@@ -58,8 +58,10 @@
         .description {
             font-size: 14px;
             margin-bottom: 5px;
+            width: 90%;
             color: #fff;
             font-weight: 700;
+            // I think I still want the description to be hidden unless I hover over it, looks messy with it displayed currently.
         }
 
         .btn {

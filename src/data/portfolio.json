@@ -1,16 +1,58 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/gardenlogo.png",
+            "cover": "/portfolio/screenPlay.gif",
             "title": "Garden2",
-            "description": "stuff",
+            "description": "An app to help you plan your square foot garden with interactive gardens and database of plants. Users can save their plans for the future as well as their favorite plants.",
             "url": "https://garden2ed.herokuapp.com/"
 
         },
         {
             "cover": "/portfolio/Employee-tracker.png",
             "title": "Employee Tracker",
-            "description": "stuff",
+            "description": "A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+            "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
+
+        },
+        {
+            "cover": "/portfolio/Note-Taker.png",
+            "title": "Note-Taker",
+            "description": "An application called Note Taker that can be used to write and save notes.",
+            "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
+
+        },
+        {
+            "cover": "/portfolio/screen_recording.gif",
+            "title": "Journal Playlist",
+            "description": "A frontend developement allowing users to share their feelings and pick a musical playlist based on their emotion",
+            "url": "https://richardjhong.github.io/journal-playlist/"
+
+        },
+        {
+            "cover": "/portfolio/Employee-tracker.png",
+            "title": "",
+            "description": "",
+            "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
+
+        },
+        {
+            "cover": "/portfolio/Employee-tracker.png",
+            "title": "",
+            "description": "",
+            "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
+
+        },
+        {
+            "cover": "/portfolio/Employee-tracker.png",
+            "title": "",
+            "description": "",
+            "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
+
+        },
+        {
+            "cover": "/portfolio/Employee-tracker.png",
+            "title": "",
+            "description": "",
             "url": "https://drive.google.com/file/d/1bkjvzFH0QVlc_HupD_aXuXyshxQJXuvz/view"
 
         }
