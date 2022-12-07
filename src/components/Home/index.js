@@ -12,7 +12,7 @@ const Home = () => {
                 <img src={LogoTitle} alt="developer" />
                 randon
                 </h1>
-                <h2>Full Stack Web Developer</h2>
+                <h2 className="title-description">Junior Full Stack Web Developer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
 

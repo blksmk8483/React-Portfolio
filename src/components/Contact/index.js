@@ -9,14 +9,6 @@ const Contact = () => {
                     <h1>
                         Contact Me:
                     </h1>
-                    <p>
-                        lkjasdf lkjasdf lkajsdf lkjasdf lkajsdf lkjasdf lkjasdf lkjasdf lkjasdf lkadjsf lkajsdf lkajsdf
-                        lkjasdf lkjasdf lkajsdf lkjasdf lkajsdf lkjasdf lkjasdf lkjasdf lkjasdf lkadjsf lkajsdf lkajsdf
-                        lkjasdf lkjasdf lkajsdf lkjasdf lkajsdf lkjasdf lkjasdf lkjasdf lkjasdf lkadjsf lkajsdf lkajsdf
-                        lkjasdf lkjasdf lkajsdf lkjasdf lkajsdf lkjasdf lkjasdf lkjasdf lkjasdf lkadjsf lkajsdf lkajsdf
-                        lkjasdf lkjasdf lkajsdf lkjasdf lkajsdf lkjasdf lkjasdf lkjasdf lkjasdf lkadjsf lkajsdf lkajsdf
-                        lkjasdf lkjasdf lkajsdf lkjasdf lkajsdf lkjasdf lkjasdf lkjasdf lkjasdf lkadjsf lkajsdf lkajsdf
-                    </p>
                     <div className='contact-form'>
                         <form>
                             <ul>
