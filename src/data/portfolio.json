@@ -1,6 +1,13 @@
 {
     "portfolio": [
         {
+            "cover": "../porfolio/ClashOfCharacters.png",
+            "title": "Clash of Characters",
+            "description": "Inspired by our love of video games. We developed a street fighter styled gaming application where users can choose their character and play against AI generated character.",
+            "url": "https://clash-of-characters.herokuapp.com/"
+
+        },
+        {
             "cover": "../portfolio/screenPlay.gif",
             "title": "Garden2",
             "description": "An app to help you plan your square foot garden with interactive gardens and database of plants. Users can save their plans for the future as well as their favorite plants.",
