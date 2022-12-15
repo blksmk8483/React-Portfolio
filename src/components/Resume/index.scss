@@ -9,3 +9,13 @@
 .resume-pic {
     height: 600px;
 }
+
+@media screen and (max-width: 1200px) {
+    .resume-pic {
+        width: 100%;
+    }
+    .resume-link {
+        position: initial;
+    }
+
+}
