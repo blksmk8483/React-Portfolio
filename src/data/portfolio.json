@@ -1,7 +1,7 @@
 {
     "portfolio": [
         {
-            "cover": "../porfolio/ClashOfCharacters.png",
+            "cover": "../portfolio/ClashOfCharacters.png",
             "title": "Clash of Characters",
             "description": "Inspired by our love of video games. We developed a street fighter styled gaming application where users can choose their character and play against AI generated character.",
             "url": "https://clash-of-characters.herokuapp.com/"
