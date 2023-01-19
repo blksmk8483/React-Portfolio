@@ -64,6 +64,9 @@
         display: none;
     }
 
+   
+
+
     .home-page{
         .text-zone {
             position: initial;
@@ -80,25 +83,39 @@
             width: 125px;
         }
 
-        .logo-container {
-            position: relative;
-            width: 100px;
-            height: auto;
-            top: 50px;
-            right: 0;
-            box-sizing: border-box;
-            margin: auto;
-            left: 0;
+       h1 img {
+        width: 65px;
+        height: 95px;
+        // padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 8px;
+       }
 
-            svg {
-                position: absolute;
-                top: auto;
-                right: auto;
-                bottom: auto;
-                left: 0;
-                margin: auto;
-            }
-        }
+       .title-description {
+        display: flex;
+            align-items: center;
+            justify-content: center;
+       }
+
+        // .logo-container {
+        //     position: relative;
+        //     width: 100px;
+        //     height: auto;
+        //     top: 50px;
+        //     right: 0;
+        //     box-sizing: border-box;
+        //     margin: auto;
+        //     left: 0;
+
+        //     svg {
+        //         position: absolute;
+        //         top: auto;
+        //         right: auto;
+        //         bottom: auto;
+        //         left: 0;
+        //         margin: auto;
+        //     }
+        // }
 
     }
 }
