@@ -1,7 +1,8 @@
 {
     "portfolio": [
         {
-            "cover": "/Users/brandonknight/UTA-Bootcamp/Challenges/React-Portfolio/React-Portfolio/public/portfolio/ClashOfCharacters.png",
+            "cover": "React-Portfolio/public/portfolio/ClashOfCharacters.png",
+            
             "title": "Clash of Characters",
             "description": "Inspired by our love of video games, we developed a street fighter styled gaming application where users can choose their character and play against AI generated character.",
             "url": "https://clash-of-characters.herokuapp.com/"
