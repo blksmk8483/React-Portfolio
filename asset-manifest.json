@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.878f9fce.css",
-    "main.js": "/React-Portfolio/static/js/main.049a8984.js",
+    "main.css": "/React-Portfolio/static/css/main.eea0c03d.css",
+    "main.js": "/React-Portfolio/static/js/main.b8dd4ea6.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/screenPlay.gif": "/React-Portfolio/static/media/screenPlay.b2d2f94a4245762fcde8.gif",
     "static/media/screen_recording.gif": "/React-Portfolio/static/media/screen_recording.8f480abc1e588314bbf9.gif",
@@ -19,12 +19,12 @@
     "static/media/LaBelleAurore.woff2": "/React-Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/React-Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.878f9fce.css.map": "/React-Portfolio/static/css/main.878f9fce.css.map",
-    "main.049a8984.js.map": "/React-Portfolio/static/js/main.049a8984.js.map",
+    "main.eea0c03d.css.map": "/React-Portfolio/static/css/main.eea0c03d.css.map",
+    "main.b8dd4ea6.js.map": "/React-Portfolio/static/js/main.b8dd4ea6.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.878f9fce.css",
-    "static/js/main.049a8984.js"
+    "static/css/main.eea0c03d.css",
+    "static/js/main.b8dd4ea6.js"
   ]
 }
