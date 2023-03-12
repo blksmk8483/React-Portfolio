@@ -1,5 +1,5 @@
 projects {
-  overflow: scroll;
+  overflow: auto;
     width: 100%;
     height: auto;
     display: flex;
