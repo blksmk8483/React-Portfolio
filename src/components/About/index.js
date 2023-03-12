@@ -25,7 +25,10 @@ const About = () => {
                 I have a Bachelor of Science in Music Education (EC-12) with performance emphasis.
                 </p>
                 <p className='about-text'>
-                I also started my own business, Lavender Cove Farm. We sell locally and online to customers. We help educate the Central Texas area on growing, not only lavender, but also a variety of different herbs. Maintaining inventory, stocking multiple outlets that we sell to, fulfilling online orders, and keeping a strong relationship with our customers are some of my small business skills.
+                My hobbies in life are learning new and intresting things, making and teaching music, and gardening. 
+                </p>
+                <p className='about-text'>
+                I turned my three favorite passions into my own business, Lavender Cove Farm. We sell locally and online to customers. We help educate the Central Texas area on growing, not only lavender, but also a variety of different herbs. Communication, maintaining inventory, stocking multiple outlets that we sell to, fulfilling online orders, and keeping a strong relationship with our customers are some of my small business skills.
                 </p>
               
             </div>
