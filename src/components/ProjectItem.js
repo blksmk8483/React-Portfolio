@@ -11,16 +11,19 @@ function ProjectItem({ image, name, id, link }) {
         navigate("/project/" + id);
     };
 
-    const projectLink = <a target="_blank" rel="nonreferrer noreferrer" href={link}>
-        <FontAwesomeIcon icon={faGithub} />
-    </a>
+    // const projectLink = <a target="_blank" rel="nonreferrer noreferrer" href={link}>
+    //     <FontAwesomeIcon icon={faGithub} />
+    // </a>
 
     return (
         <div className="projectItem" >
 
             <div onClick={handleChange} style={{ backgroundImage: `url(${image})` }} className='bgImage' />
             <h1>{name}</h1>
-            <h2 className='projectLink'>{projectLink}</h2>
+            <a target="_blank" rel="nonreferrer noreferrer" href={link}>
+        <FontAwesomeIcon icon={faGithub} />
+    </a>
+            {/* <h2 className='projectLink'>{projectLink}</h2> */}
         </div>
     );
 };
