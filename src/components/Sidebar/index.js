@@ -41,7 +41,7 @@ const Sidebar = () => {
                     exact="true"
                     activeclassname="active"
                     className="portfolio-link"
-                    to="/portfolio"
+                    to="/projects"
                 >
                     <FontAwesomeIcon icon={faList} color="#4d4d4e" />
                 </NavLink>
