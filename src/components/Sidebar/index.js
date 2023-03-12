@@ -64,22 +64,22 @@ const Sidebar = () => {
             </nav>
             <ul>
                 <li>
-                    <a target="_blank" rel='nonreferrer' href='https://www.linkedin.com/in/brandon-knight-21940a206/'>
+                    <a target="_blank" rel="nonreferrer noreferrer" href='https://www.linkedin.com/in/brandon-knight-21940a206/'>
                         <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel='nonreferrer' href='https://github.com/blksmk8483'>
+                    <a target="_blank" rel="nonreferrer noreferrer" href='https://github.com/blksmk8483'>
                         <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel='nonreferrer' href='https://www.facebook.com/brandon.knight.5815'>
+                    <a target="_blank" rel="nonreferrer noreferrer" href='https://www.facebook.com/brandon.knight.5815'>
                         <FontAwesomeIcon icon={faFacebook} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" rel='nonreferrer' href='https://twitter.com/Brandon198483'>
+                    <a target="_blank" rel="nonreferrer noreferrer" href='https://twitter.com/Brandon198483'>
                         <FontAwesomeIcon icon={faTwitter} color="#4d4d4e" />
                     </a>
                 </li>

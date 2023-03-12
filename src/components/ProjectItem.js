@@ -11,7 +11,7 @@ function ProjectItem({ image, name, id, link }) {
         navigate("/project/" + id);
     };
 
-    const projectLink = <a target="_blank" rel='nonreferrer' href={link}>
+    const projectLink = <a target="_blank" rel="nonreferrer noreferrer" href={link}>
     <FontAwesomeIcon icon={faGithub} />
 </a>
 

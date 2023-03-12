@@ -18,7 +18,7 @@ projects {
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
   }
   
@@ -28,7 +28,7 @@ projects {
     border-radius: 15px;
     width: 300px;
     height: 310px;
-    margin: 40px;
+    margin: 40px 40px 40px 95px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
@@ -77,5 +77,6 @@ projects {
     .projectItem {
       width: 300px;
       height: 310px;
+      margin: 40px;
     }
   }

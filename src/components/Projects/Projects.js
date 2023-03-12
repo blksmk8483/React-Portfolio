@@ -10,7 +10,7 @@ function Projects() {
             <h1 className='projectTitle'>My Personal Projects</h1>
             <div className='projectList'>
                 {ProjectList.map((project, index) => {
-                    return <ProjectItem id={index} name={project.name} image={project.image} link={project.link} />
+                    return <ProjectItem key={index} id={index} name={project.name} image={project.image} link={project.link} />
                 })}
             </div>
         </div>
