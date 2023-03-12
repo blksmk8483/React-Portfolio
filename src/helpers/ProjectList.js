@@ -19,6 +19,7 @@ export const ProjectList = [
         name: "Garden 2",
         image: Garden2,
         skills: "hsdf lsdfh sdflhs deflhwelfh",
+        link: "https://clash-of-characters.herokuapp.com/"
     },
     {
         name: "E-Commerce",

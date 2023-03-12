@@ -3,7 +3,7 @@ import './index.scss'
 import LetterB from '../../assets/images/LetterB.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser, faList, faLink, faBars, faClose } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faGithub, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react'
 
 const Sidebar = () => {
