@@ -12,13 +12,13 @@ function ProjectItem({ image, name, id, link }) {
     };
 
     const projectLink = <a target="_blank" rel="nonreferrer noreferrer" href={link}>
-    <FontAwesomeIcon icon={faGithub} />
-</a>
+        <FontAwesomeIcon icon={faGithub} />
+    </a>
 
     return (
         <div className="projectItem" >
-       
-            <div onClick={handleChange} style={{backgroundImage: `url(${image})`}} className='bgImage' />
+
+            <div onClick={handleChange} style={{ backgroundImage: `url(${image})` }} className='bgImage' />
             <h1>{name}</h1>
             <h2 className='projectLink'>{projectLink}</h2>
         </div>

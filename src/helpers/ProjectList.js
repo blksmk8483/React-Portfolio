@@ -30,7 +30,7 @@ export const ProjectList = [
     },
     {
         name: "Team-Profile",
-        image: TeamProfile, 
+        image: TeamProfile,
         skills: "",
         link: "https://drive.google.com/file/d/1GNF8DgT_4YkdxnLua2_Fj14Sb-JnCryn/view"
     },
@@ -64,5 +64,5 @@ export const ProjectList = [
         skills: "",
         link: "https://blksmk8483.github.io/Work-Day-Scheduler/"
     },
-    
+
 ]
