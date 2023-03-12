@@ -6,21 +6,25 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Projects from './components/Projects/Projects';
 import ReactDom from 'react-dom';
 import React from 'react';
+import ProjectDisplay from './components/ProjectDisplay/ProjectDisplay';
 
 function App() {
   return (
     <>
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<ProjectDisplay />} />
+          <Route path="/resume" element={<Resume />} />
         </Route>
-    </Routes>
+      </Routes>
     </>
   );
 }
