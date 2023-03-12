@@ -6,6 +6,7 @@ projects {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .projects .projectTitle {
@@ -32,6 +33,7 @@ projects {
   margin: 40px 40px 40px 95px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
+  background: #115173;
 }
 
 .projectItem:hover {
@@ -39,7 +41,6 @@ projects {
   transition: 0.2s ease-in;
   width: 350px;
   height: 360px;
-
 }
 
 .projectItem .bgImage {
@@ -56,7 +57,7 @@ projects {
 .projectItem .bgImage:hover {
   /* background: transparent; */
   opacity: 0.35;
-  
+
 }
 
 .projectItem h1 {
@@ -72,16 +73,16 @@ projects {
 } */
 
 .projectItem a {
-  margin-top: 8px;
-  font-size: 35px;
+  margin-bottom: 14px;
+  font-size: 42px;
+  color: #022c43;
 }
 
 
 .projectItem a:hover {
-  box-shadow: 0px 3px 15px #fff;
-  transition: 0.2s ease-in;
-  font-size: 42px;
-  background: transparent;
+  transition: 0.1s ease-in;
+  margin-top: 8px;
+  font-size: 74px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -106,4 +107,20 @@ projects {
     height: 310px;
     margin: 40px;
   }
+
+  .projectItem:hover {
+    box-shadow: none;
+    transition: none;
+    /* width: 300px;
+    height: 310px; */
+  }
+
+  .projectItem a:hover {
+    margin-top: 8px;
+    font-size: 35px;
+    box-shadow: none;
+    transition: none;
+    background: local;
+  }
+
 }
