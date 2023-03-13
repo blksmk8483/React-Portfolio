@@ -13,7 +13,7 @@ export const ProjectList = [
     {
         name: "Clash Of Characters",
         image: ClashOfCharacters,
-        skills: "ljsdfjs sldfj ljsdf ljsdf",
+        skills: "Inspired by our love of video games, we developed a street fighter styled gaming application where users can choose their character and play against AI generated character.",
         link: "https://clash-of-characters.herokuapp.com/"
     },
     {
