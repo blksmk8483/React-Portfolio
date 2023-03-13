@@ -6,7 +6,6 @@ projects {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .projects .projectTitle {
@@ -20,7 +19,7 @@ projects {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
 }
 
@@ -29,7 +28,7 @@ projects {
 .projectItem {
   border-radius: 15px;
   width: 300px;
-  height: 310px;
+  height: 320px;
   margin: 40px 40px 40px 95px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -38,9 +37,9 @@ projects {
 
 .projectItem:hover {
   box-shadow: 0px 3px 15px #ffd700;
-  transition: 0.2s ease-in;
-  width: 350px;
-  height: 360px;
+  transition: 0.15s ease-in;
+  width: 320px;
+  height: 335px;
 }
 
 .projectItem .bgImage {
@@ -66,23 +65,16 @@ projects {
   font-size: 25px;
 }
 
-
-/* .projectItem h2 {
-  margin-top: 8px;
-  font-size: 35px;
-} */
-
 .projectItem a {
   margin-bottom: 14px;
   font-size: 42px;
   color: #022c43;
 }
 
-
 .projectItem a:hover {
   transition: 0.1s ease-in;
   margin-top: 8px;
-  font-size: 74px;
+  font-size: 58px;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -102,25 +94,27 @@ projects {
     width: 100%;
   }
 
+  .projectItem .bgImage:hover {
+    opacity: none;
+  
+  }
+
   .projectItem {
     width: 300px;
-    height: 310px;
+    height: 320px;
     margin: 40px;
   }
 
   .projectItem:hover {
     box-shadow: none;
     transition: none;
-    /* width: 300px;
-    height: 310px; */
+    width: 300px;
+    height: 320px;
   }
 
   .projectItem a:hover {
-    margin-top: 8px;
-    font-size: 35px;
-    box-shadow: none;
-    transition: none;
-    background: local;
+    font-size: 42px;
+    color: #022c43;
   }
 
 }
